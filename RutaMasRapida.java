@@ -1,0 +1,6 @@
+public class RutaMasRapida implements RutaStrategy {
+    public String calcularRuta(String puntoA, String puntoB) {
+        System.out.println("Procesando estrategia... calculando tipo de ruta... buscando ruta de menor duración");
+        return "Ruta más rápida entre " + puntoA + " y " + puntoB;
+    }
+}
